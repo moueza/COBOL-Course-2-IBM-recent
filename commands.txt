@@ -24,3 +24,14 @@ zowe scs update
 
 #Read until included 8.3.1
 
+8.6 Lab
+20)
+
+#Figure 32
+ zowe files list am "h*" --responseTimeout 600
+ zowe files list am $ibmUser.CBL --responseTimeout 600
+ zowe files download am $ibmUser.CBL -e ".cbl" --responseTimeout 600
+ zowe files download am $ibmUser.JCL -e ".jcl" --responseTimeout 600
+ 
+ 
+ zowe jobs submit ds "$ibmUser.JCL(HELLO)"  --vasc
