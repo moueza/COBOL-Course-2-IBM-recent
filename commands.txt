@@ -6,8 +6,8 @@ zowe files dl data-set "id.CBL" --responseTimeout 600
 #2.3 Profiles in Zowe Explorer
 
 #5.3.3 Zowe Profiles
-zowe profiles create zosmf  learningSystem --host  https://192.86.32.250 --port 10443  --ru false --user prompt* --pass prompt* --overwrite
-
+#zowe profiles create zosmf  learningSystem --host  https://192.86.32.250 --port 10443  --ru false --user prompt* --pass prompt* --overwrite
+zowe profiles create zosmf  learningSystem --host  https://192.86.32.250 --port 10443  --ru false --user $ibmUser --pass $ibmPass --overwrite
 
 
 #5.3.4 Interacting with z/OS Data Sets PASSWORD REQUIRED ... 7.2.1  to solve !!!
@@ -20,6 +20,7 @@ zowe plugins install @zowe/secure-credential-store-for-zowe-cli@zowe-v1-lts
 sudo npm install -g @zowe/imperative@^4.0.0
 zowe scs update
 
+7.3 Plugins Db2,  IBM z/OS Connect EE.
 
 #Read until included 8.3.1
 
