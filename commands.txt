@@ -35,3 +35,19 @@ zowe scs update
  
  
  zowe jobs submit ds "$ibmUser.JCL(HELLO)"  --vasc
+ 
+ zowe jobs submit ds "$ibmUser.JCL(HELLO)"  --wfo
+
+zowe jobs list sfbj JOB04426
+
+ zowe jobs view sfbi JOB04426 104
+ 
+ 
+ 
+ zowe jobs submit  ds "$ibmUser.JCL(HELLO)" -d .
+ 
+ 8.7.2 Zowe CLI - Programmatic Usage
+ zowe jobs submit ds 'Z83677.JCL(HELLO)' -d .
+ 
+ 9.2.1 PIC clause symbols and data types
+ 
