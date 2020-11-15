@@ -4,7 +4,7 @@
   "description": "From https://github.com/openmainframeproject/cobol-programming-course/",
   "main": "index.js",
   "scripts": {
-    "clg": "cd ~/POUB/COBOL-Course-2-IBM-recent/z83677;zowe jobs submit ds 'Z83677.JCL(HELLO)' -d . ; cd -"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
