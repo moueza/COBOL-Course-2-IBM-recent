@@ -1,0 +1,19 @@
+{
+  "name": "cobol-course-2-ibm-recent",
+  "version": "1.0.0",
+  "description": "From https://github.com/openmainframeproject/cobol-programming-course/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moueza/COBOL-Course-2-IBM-recent.git"
+  },
+  "author": "Peter MOUEZA",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/moueza/COBOL-Course-2-IBM-recent/issues"
+  },
+  "homepage": "https://github.com/moueza/COBOL-Course-2-IBM-recent#readme"
+}
