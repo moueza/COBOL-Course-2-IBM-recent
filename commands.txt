@@ -51,3 +51,4 @@ zowe jobs list sfbj JOB04426
  
  9.2.1 PIC clause symbols and data types
  
+9.3.3 OK
