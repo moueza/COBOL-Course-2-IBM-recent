@@ -52,3 +52,8 @@ zowe jobs list sfbj JOB04426
  9.2.1 PIC clause symbols and data types
  
 9.3.3 OK
+
+9.4 MOVE and COMPUTE
+9.5 Lab
+ 5.4 Automating tasks using Zowe CLI
+ 3.5.1 Renaming variables
