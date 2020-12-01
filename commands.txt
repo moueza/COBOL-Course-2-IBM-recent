@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#download
 zowe files dl data-set "id.CBL" --responseTimeout 600
 
 
