@@ -56,6 +56,6 @@ zowe jobs list sfbj JOB04426
 
 9.4 MOVE and COMPUTE
 9.5 Lab
- 5.4 Automating tasks using Zowe CLI
- 3.5.1 Renaming variables
-3.3.3 Jump to declaration / reference
+5.4 Automating tasks using Zowe CLI
+3.5.1 Renaming variables              OK
+3.3.3 Jump to declaration / reference OK
