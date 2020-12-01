@@ -67,7 +67,7 @@
       *
        WRITE-RECORD.
            MOVE ACCT-NO-TEST      TO  ACCT-NO-O.
-           MOVE ACCT-NO TO ACCT-N-0.
+      *    MOVE ACCT-NO TO ACCT-N-0.
            MOVE ACCT-LIMIT   TO  ACCT-LIMIT-O.
            MOVE ACCT-BALANCE  TO  ACCT-BALANCE-O.
            MOVE LAST-NAME    TO  LAST-NAME-O.
