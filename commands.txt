@@ -59,3 +59,6 @@ zowe jobs list sfbj JOB04426
 5.4 Automating tasks using Zowe CLI
 3.5.1 Renaming variables              OK
 3.3.3 Jump to declaration / reference OK
+
+
+zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
