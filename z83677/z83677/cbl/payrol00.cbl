@@ -1,5 +1,6 @@
+      *A   B
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PAYROL0X.
+       PROGRAM-ID. PAYROL00.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
       ****** Variables for the report
@@ -8,7 +9,7 @@
        77  WHY        PIC X(30).
        77  RATE       PIC 9(3).
        77  HOURS      PIC 9(3).
-       77  GROSS-PAY  PIC 9(6).
+       77  GROSS-PAY  PIC 9(5).
 
        PROCEDURE DIVISION.
       ****** COBOL MOVE statements - Literal Text to Variables
@@ -26,5 +27,5 @@
            DISPLAY "Hours Worked: " HOURS.
            DISPLAY "Hourly Rate: " RATE.
            DISPLAY "Gross Pay: " GROSS-PAY.
-           DISPLAY WHO "- " WHERE "-- " WHY.
+           DISPLAY WHY " from " WHO.
            GOBACK.
