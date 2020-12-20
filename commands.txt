@@ -62,3 +62,11 @@ zowe jobs list sfbj JOB04426
 
 
 zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
+
+9.5 Lab
+ zowe files list am $ibmUser.CBL --responseTimeout 600
+ zowe jobs submit ds "$ibmUser.JCL(PAYROL00)"  --wfo
+ zowe jobs list sfbj JOB08408
+ 
+ zowe jobs submit ds "$ibmUser.JCL(PAYROL0X)"  --wfo #retcode: CC 0012
+  zowe jobs list sfbj JOB08411
