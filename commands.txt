@@ -73,3 +73,4 @@ zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
  zowe files download am $ibmUser.CBL -e ".cbl" --responseTimeout 600 #for commit
 10.1.2 OK
 10.3 OK
+10.3.1 OK
