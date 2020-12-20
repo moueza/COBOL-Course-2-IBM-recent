@@ -70,3 +70,4 @@ zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
  
  zowe jobs submit ds "$ibmUser.JCL(PAYROL0X)"  --wfo #retcode: CC 0012
   zowe jobs list sfbj JOB08411
+ zowe files download am $ibmUser.CBL -e ".cbl" --responseTimeout 600 #for commit
