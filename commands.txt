@@ -74,3 +74,4 @@ zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
 10.1.2 OK
 10.3 OK
 10.3.1 OK
+zowe zosmf check status #caracteristiques
