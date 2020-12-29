@@ -75,3 +75,8 @@ zowe files upload ftds cbl/hello.cbl $ibmUser.CBL --responseTimeout 600
 10.3 OK
 10.3.1 OK
 zowe zosmf check status #caracteristiques
+
+#copy cf mtm
+cp  jcl/hello.jcl jcl/poub.jcl
+zowe files upload ftds jcl/poub.jcl  $ibmUser.JCL --responseTimeout 600
+zowe jobs submit ds 'Z83677.JCL(POUB)' -d .
