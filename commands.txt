@@ -80,3 +80,5 @@ zowe zosmf check status #caracteristiques
 cp  jcl/hello.jcl jcl/poub.jcl
 zowe files upload ftds jcl/poub.jcl  $ibmUser.JCL --responseTimeout 600
 zowe jobs submit ds 'Z83677.JCL(POUB)' -d .
+
+11.3.1 OK
