@@ -29,7 +29,7 @@ zowe scs update
 20)
 
 #Figure 32
- zowe files list am "h*" --responseTimeout 600 #all members
+ zowe files list am "h*" --responseTimeout 600 #KO all members
  zowe files list am $ibmUser.CBL --responseTimeout 600
  zowe files download am $ibmUser.CBL -e ".cbl" --responseTimeout 600
  zowe files download am $ibmUser.JCL -e ".jcl" --responseTimeout 600
