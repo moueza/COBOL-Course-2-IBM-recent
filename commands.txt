@@ -82,3 +82,4 @@ zowe files upload ftds jcl/poub.jcl  $ibmUser.JCL --responseTimeout 600
 zowe jobs submit ds 'Z83677.JCL(POUB)' -d .
 
 11.3.1 OK
+... 11.7 OK
